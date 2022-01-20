@@ -1,0 +1,15 @@
+<div class="container">
+	<header>Pronounce the word</header>
+	<section>
+		<div class="sound-box">
+			{{#Word Sound}}{{Word Sound}}{{/Word Sound}}
+			{{^Word Sound}}{{tts en_US:Word}}{{/Word Sound}}
+		</div>
+		<div>
+			<span class="word">{{Word}}</span>
+			<span class="word-class">{{Word Class}}</span>
+		</div>
+		{{Picture}}
+	</section>
+	<section>{{Definition}}</section>
+</div>
