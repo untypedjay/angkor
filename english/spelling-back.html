@@ -1,0 +1,14 @@
+<div class="container">
+	<header>Type what you hear</header>
+	<section>
+		<div class="sound-box">
+		  {{#Word Sound}}{{Word Sound}}{{/Word Sound}}
+			{{^Word Sound}}{{tts en_US:Word}}{{/Word Sound}}
+		</div>
+		{{type:Word}}
+		{{Picture}}
+	</section>
+	<section id="answer">
+		<div>{{Definition}}</div>
+	</section>
+</div>
