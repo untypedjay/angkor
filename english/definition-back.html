@@ -1,0 +1,15 @@
+<div class="container">
+	<header>Find the word that fits the definition</header>
+	<section>{{Definition}}</section>
+	<section id="answer">
+		<div class="sound-box">
+		  {{#Word Sound}}{{Word Sound}}{{/Word Sound}}
+			{{^Word Sound}}{{tts en_US:Word}}{{/Word Sound}}
+		</div>
+		<div class="highlight">
+			<span class="word">{{Word}}</span>
+			<span class="word-class">{{Word Class}}</span>
+		</div>
+		{{Picture}}
+	</section>
+</div>
