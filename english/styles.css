@@ -14,7 +14,7 @@
 	--text-size-mobile: 15px;
 	--text-size-big: 25px;
 	--text-size-big-mobile: 20px;
-	--max-section-height: 65vh;
+	--max-section-height: 55vh;
 	--max-card-width: 770px;
 	--border-radius: 10px;
 	--border: 2px;
@@ -82,7 +82,7 @@ section {
 
 .sound-box {
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	left: 0;
 }
 
@@ -116,10 +116,6 @@ img {
 .word-class {
 	font-style: italic;
 	color: var(--secondary);
-}
-
-.nightMode .word-class {
-	color: var(--secondary-dark);
 }
 
 input {
