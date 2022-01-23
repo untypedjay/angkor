@@ -1,0 +1,13 @@
+<div class="container">
+	<header>Translate into German</header>
+	<section>
+		{{Sentence}}
+	</section>
+	<section id="answer">
+		<div class="sound-box">
+			{{#Sentence Sound}}{{Sentence Sound}}{{/Sentence Sound}}
+			{{^Sentence Sound}}{{tts en_US:Sentence}}{{/Sentence Sound}}
+		</div>
+		{{Sentence Translation}}
+	</section>
+</div>
